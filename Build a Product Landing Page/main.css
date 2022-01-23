@@ -87,7 +87,7 @@ iframe {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 5% auto;
+    margin: 0 3% 3% 3%;
 }
 
 #form {
@@ -132,14 +132,12 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .features li {
     display: inline;
-    margin: 3.6rem;
+    margin: 3.6rem 7rem;
     font-weight: 800;
-
 }
 
 #pricing {
@@ -156,7 +154,7 @@ iframe {
     width: 50%;
     height: 100%;
     flex-direction: row;
-    margin: 0 5rem;
+    margin: 0 5rem 3rem;
 }
 
 #productHeader {
