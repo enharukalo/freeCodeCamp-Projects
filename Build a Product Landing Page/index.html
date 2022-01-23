@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FCC - Product Landing Page</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div id="logo-container">
+        <img
+          src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/16618/trombone-musical-instrument-clipart-xl.png"
+          id="logo-img"
+        />
+        <h1 id="logo-txt">Real Trombones</h1>
+      </div>
+      <nav id="nav-bar">
+        <ul id="pages">
+          <li>
+            <a href="#features" class="nav-link">Features</a>
+          </li>
+          <li>
+            <a href="#video" class="nav-link">How it works</a>
+          </li>
+          <li>
+            <a href="#pricing" class="nav-link">Pricing</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="title">
+      <h1 align="center">Real Trombones<br />The Trombones You Deserve!</h1>
+    </div>
+    <div id="form-container">
+      <form
+        id="form"
+        action="https://www.freecodecamp.com/email-submit"
+        target="_blank"
+      >
+        <input
+          name="email"
+          type="email"
+          id="email"
+          placeholder="Sign up to our newsletter!"
+          required
+        />
+        <div>
+          <input type="submit" class="btn" id="submit" value="Get Started" />
+        </div>
+      </form>
+    </div>
+
+    <div id="features">
+      <ul class="features" id="features">
+        <li>Awesome Quality</li>
+        <li>Free Shipping</li>
+        <li>Premium Materials</li>
+      </ul>
+    </div>
+
+    <div id="main">
+      <div id="video">
+        <iframe
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/IewGkEIuDnE?rel=0"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <div id="pricing">
+      <div id="product">
+        <div id="productHeader">
+          <h3>Special Trombone</h3>
+        </div>
+        <div id="productDescription">
+          <h5>The trombone is a musical instrument in the brass family.</h5>
+        </div>
+        <div id="productBottom">
+          <p>$9999</p>
+          <button class="btn" id="addToCart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
