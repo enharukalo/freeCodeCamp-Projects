@@ -14,6 +14,7 @@ body {
 }
 
 #nav-bar {
+    padding-top: 20px;
     position: fixed;
     min-width: 290px;
     height: 100%;
